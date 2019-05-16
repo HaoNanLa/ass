@@ -1,0 +1,112 @@
+div.box {
+    background: #3b8ed3;
+    overflow: hidden;
+}
+
+div.con {
+    width: 1200px;
+    margin: auto;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    position: relative;
+    float: right;
+    height: 44px;
+}
+
+div.box a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.left a {
+    border-top: 4px solid #3b8ed3;
+    float: left;
+    padding: 10px 20px;
+}
+
+div.right a {
+    float: left;
+    padding: 14px 20px 10px;
+
+}
+
+div.left a.active {
+    border-top: 4px solid orange;
+    background-color: white;
+    color: #3b8ed3;
+}
+
+.left a:hover {
+    background-color: white;
+    border-top: 4px solid orange;
+    color: #3b8ed3;
+}
+
+.right a:hover {
+    background-color: #2f5991;
+}
+
+div.triangle {
+    position: absolute;
+    right: 0px;
+    top: 18px;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid #ffffff;
+    border-left: 5px solid #3b8ed3;
+    border-right: 5px solid #3b8ed3;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+}
+img.header{
+    height: 80px;
+}
+
+div.hotcities {
+    padding-left: 150px;
+    font-size: 14px;
+    background-color: rgba(180, 180, 180, 0.21);
+}
+
+span.hotcities {
+    margin: auto 3px;
+}
+
+a.cities {
+    color: #6264be;
+    margin: auto 2px;
+}
+
+div.banner {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 350px;
+}
+
+img.banner {
+    float: top;
+    position: absolute;
+    top: 0;
+    height: 350px;
+}
+img.banner1{
+    left: -130px;
+}
+img.banner2{
+    left: -130px;
+}
+
